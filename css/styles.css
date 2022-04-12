@@ -1,0 +1,170 @@
+/***** Element Selectors *****/
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #ECB390;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  margin: 3.125rem auto 0 auto;
+}
+
+h2 {
+  color: #ECB390;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #11999E 5px;
+  width: 4%;
+  border-bottom: 0;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+a:hover {
+  color: #ECB390;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+/***** Class Selectors *****/
+
+.astronaut-img {
+  width: 15%;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.btn {
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #66BFBF;
+  padding: 8px 17px 8px 17px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FCF8E8;
+  background-image: -webkit-linear-gradient(top, #FCF8E8, #66BFBF);
+  background-image: -moz-linear-gradient(top, #FCF8E8, #66BFBF);
+  background-image: -ms-linear-gradient(top, #FCF8E8, #66BFBF);
+  background-image: -o-linear-gradient(top, #FCF8E8, #66BFBF);
+  background-image: linear-gradient(to bottom, #FCF8E8, #66BFBF);
+  text-decoration: none;
+}
+
+.computer-img {
+  border-radius: 85%;
+  width: 25%;
+  float: left;
+  margin: 0 1.875rem 0 0;
+}
+
+.contact-me {
+  padding-bottom: 0.197rem;
+}
+
+.footer-link {
+  padding: 0.625rem;
+}
+
+.intro {
+  width:50%;
+  margin: 0 auto 0 auto;
+  margin-bottom: 1.625rem;
+}
+
+.top-container {
+  background-color: #27546b;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #F7F6F2;
+  padding-bottom: 2rem;
+  padding-top: 2.1875rem;
+}
+
+.bottom-container {
+  background-color: #27546b;
+  line-height: 2;
+  padding-bottom: 0.625rem
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.personal-img {
+  width: 25%;
+  float: right;
+  margin: 0 0 0 1.875rem;
+}
+
+.profile-img {
+  padding-top: 0.625rem;
+  width: 10.25rem;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+
+}
+
+.skill-text {
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+/***** ID Selectors *****/
+::marker {
+  display: none;
+  /* unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important; */
+}
+
+#copyright {
+  color: #ECB390;
+}
